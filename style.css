@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.form{
+    bottom: -200px;
+    width: 50%;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    border: none;
+}
+
+.form .input-name, .form .input-email {
+    width: 100%;
+    height: 100%;
+    color: #595f6e;
+    padding-top: 32px;
+    border: none;
+    outline: none;
+}
+
+/* Moving input boxes to the right position */
+.form .input-email{
+    margin-top: 55px;
+}
+
+.form .label-name, .form .label-email {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black; 
+}
+
+.form .label-name {
+    bottom: 444px;
+}
+
+.form .label-email {
+    bottom: 338px;
+}
+
+.form .label-name::after,
+.form .label-email::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;  
+    height: 100%;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.form .label-name::after {
+    border-bottom: 3px solid #5fa8d3;
+}
+
+.form .label-email::after {
+    border-bottom: 3px solid #43bea4;
+}
+
+.content-name, .content-email {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.form .input-name:focus + .label-name .content-name,
+.form .input-name:valid + .label-name .content-name,
+.form .input-email:focus + .label-email .content-email,
+.form .input-email:valid + .label-email .content-email {
+    transform: translateY(-150%);
+    font-size: 14px;
+} 
+
+.form .input-name:focus + .label-name .content-name,
+.form .input-name:valid + .label-name .content-name {
+    color: #5fa8d3;
+} 
+
+.form .input-email:focus + .label-email .content-email,
+.form .input-email:valid + .label-email .content-email {
+    color: #43bea4;
+ }
+
+.form .input-name:focus + .label-name::after, 
+.form .input-name:valid + .label-name::after,
+.form .input-email:focus + .label-email::after,
+.form .input-email:valid + .label-email::after {
+    transform: translateX(0%);
+}
+
+
+.form .form-email {
+    bottom: 500px;
+}
