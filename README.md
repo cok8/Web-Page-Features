@@ -6,4 +6,6 @@ HTML, CSS <br>
 
 04: SVG Animation with text <br>
 source: https://youtu.be/vJNVramny9k <br>
+SVG text made by Figma: <br>
+https://www.figma.com/<br>
 HTML, CSS, JS <br>
