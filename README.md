@@ -13,3 +13,7 @@ HTML, CSS, JS <br>
 05: HTML Dropdown menu <br>
 source: https://youtu.be/o0YiZF9XZL0 <br>
 HTML, CSS <br>
+
+06: One Color UI Responsive Website <br>
+source: https://youtu.be/2IjyqauKumE
+HTML, CSS <br>
