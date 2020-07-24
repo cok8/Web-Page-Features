@@ -15,5 +15,9 @@ source: https://youtu.be/o0YiZF9XZL0 <br>
 HTML, CSS <br>
 
 06: One Color UI Responsive Website <br>
-source: https://youtu.be/2IjyqauKumE
+source: https://youtu.be/2IjyqauKumE <br>
 HTML, CSS <br>
+
+07: Animated Responsive Navbar with CSS (JS part not included)<br>
+source: https://youtu.be/biOMz4puGt8 <br>
+HTML, CSS, JS <br>
