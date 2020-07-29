@@ -25,3 +25,7 @@ HTML, CSS, JS <br>
 09: Animated Responsive Navbar<br>
 source: https://youtu.be/H4MkGzoACpQ <br>
 HTML, CSS, JS <br>
+
+10: Javascript Fluid Image Pop Up<br>
+source: https://youtu.be/4SQXOA8Z-lo <br>
+HTML, CSS, JS<br>
